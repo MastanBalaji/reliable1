@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "tirupati"
+    }
+  },
+  "defaultProject": "tirupati",
+  "cli": {
+    "analytics": "4d008c66-de0d-4f81-8c70-22e95342a54f"
+  }
 }

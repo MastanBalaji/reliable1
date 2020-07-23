@@ -1,0 +1,179 @@
+.main-sty{
+    position: absolute;
+    top:0%;
+    width: 100%;
+    }
+    .main-sty a{
+        text-decoration: none;
+    }
+    .main-sty h1{
+        color: rgb(24, 23, 23);
+        font-size: 3.5rem !important;
+        font-weight: 550;
+    }
+    .main-sty h2{
+        color: rgb(24, 23, 23);
+        font-size: 2rem !important;
+        font-weight: 550;
+    }
+    .sub-txt{
+        font-size: 4rem !important;
+    }
+    .sub-txt1{
+        font-size: 2rem !important;
+        font-family: Brush Script MT, Brush Script Std, cursive !important;
+    }
+    .car-sty{
+        height: auto;
+        position: relative;
+    }
+    .ftr-sty{
+        color:white;
+        background: rgb(32, 32, 32);
+        min-height: 40vh !important;
+    
+    }
+    .txt-sty{
+        cursor: pointer;
+        color: green;
+        font-size: 2.2rem !important;
+        font-weight: bold;
+        bottom: 0%;
+    }
+    .pre-sty{
+    position: absolute;
+    left:-20%;
+    filter: invert(1);
+    }
+    .nxt-sty{
+    position: absolute;
+    right:-20%;
+    filter: invert(1);
+    }
+    .bar1{
+        border: 1.5px solid green;
+        width: 15%;
+    }
+    .bar{
+        border: 1.5px solid green;
+        width: 80%;
+    }
+    .ftr-img{
+        height: 100px !important;
+        width: 100px !important;
+    }
+    .ftr-txt{
+        font-size: 2.2rem;
+        font-weight: bold;
+    }
+    .ftr1-sty{
+        min-height: 34vh !important;
+    }
+    .int-sty{
+        width: 80%;
+        border-radius: 20px;
+        background-color: transparent;
+    }
+    .btn-sty{
+        color: white;
+        background-color: green;
+        border-radius: 20px;
+        width: 50%;
+    }
+    .bg-img{
+        height: 90vh;
+        width: 100%;
+        opacity: 0.75;
+        position: relative;
+    }
+    .card:hover{
+        cursor: pointer;
+        box-shadow: .5rem .5rem 0.5rem black;
+    }
+    
+    @media only screen and (max-width:1167px) {
+        .main-sty h1{
+            color: rgb(24, 23, 23);
+            font-size: 3rem !important;
+            font-weight: 550;
+        }
+        .ftr-txt{
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .pre-sty{
+            position: absolute;
+            left:-15%;
+            filter: invert(1);
+            }
+            .nxt-sty{
+            position: absolute;
+            right:-15%;
+            filter: invert(1);
+            }
+      }
+      @media only screen and (max-width:992px) {
+        .main-sty h1{
+            color: rgb(24, 23, 23);
+            font-size: 2.5rem !important;
+            font-weight: 550;
+        }
+        .ftr-txt{
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .sub-txt1{
+            font-size: 1.5rem !important;
+            font-family: Brush Script MT, Brush Script Std, cursive !important;
+        }
+        .main-sty h2{
+            color: rgb(24, 23, 23);
+            font-size: 1.5rem !important;
+            font-weight: 550;
+        }
+        .int-sty{
+            width: 100%;
+            border-radius: 20px;
+            background-color: transparent;
+        }
+        .btn-sty{
+            color: white;
+            background-color: green;
+            border-radius: 20px;
+            width: 80%;
+            white-space: nowrap;
+        }
+      }
+    
+      @media only screen and (max-width:767px) {
+        .main-sty h1{
+            color: rgb(24, 23, 23);
+            font-size: 2rem !important;
+            font-weight: 550;
+        }
+        .ftr-txt{
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .sub-txt1{
+            font-size: 1.5rem !important;
+            font-family: Brush Script MT, Brush Script Std, cursive !important;
+        }
+        .main-sty h2{
+            color: rgb(24, 23, 23);
+            font-size: 1.5rem !important;
+            font-weight: 550;
+        }
+        .int-sty{
+            width: 80%;
+            border-radius: 20px;
+            background-color: transparent;
+        }
+        .btn-sty{
+            color: white;
+            background-color: green;
+            border-radius: 20px;
+            width: 100%;
+            white-space: nowrap;
+        }
+      }
